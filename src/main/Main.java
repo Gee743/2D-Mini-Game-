@@ -18,6 +18,7 @@ public class Main {
         window.setLocale(null);
         window.setVisible(true);
 
+        gamePanel.setUpGame();
         gamePanel.startGameThread();
 
     }
